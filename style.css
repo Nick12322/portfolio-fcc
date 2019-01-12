@@ -108,6 +108,20 @@ table {
 #firstTile {
     width: 31vh;
     height: 31vh;
-    background-color: darkgray;
     text-align: center;
+    float: left;
+}
+
+#secondTile {
+    width: 31vh;
+    height: 31vh;
+    text-align: center;
+    float: right;
+}
+
+#travelMatePic {
+    display:block;
+    width: 30vh;
+    height: 30vh;
+    margin: auto;
 }
