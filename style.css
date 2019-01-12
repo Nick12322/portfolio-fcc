@@ -93,3 +93,21 @@ table {
     height: 30px;
 }
 
+#dota2pic {
+    display:block;
+    width: 30vh;
+    height: 30vh;
+    margin: auto;
+}
+
+#projectTiles {
+    padding-left: 20vh;
+    padding-right: 20vh;
+}
+
+#firstTile {
+    width: 31vh;
+    height: 31vh;
+    background-color: darkgray;
+    text-align: center;
+}
