@@ -255,7 +255,7 @@ a {
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
     #projectTiles {
         display: grid;
         justify-items: center;
