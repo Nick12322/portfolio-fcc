@@ -48,13 +48,22 @@ table {
 }
 
 
-
+#navbar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    color: black;
+    height: 30px;
+}
 
 #welcome-section {
     height: 100vh;
     text-align: center;
     background-image: linear-gradient(-90deg, red, yellow);
     width: 100%;
+    overflow: hidden;
 }
 
 #welcomeText {
@@ -76,6 +85,7 @@ table {
     margin-top: 0;
     padding-top: 30px;
     font-size: 40px;
+    padding-bottom: 10px;
 }
 
 #projects {
@@ -83,44 +93,22 @@ table {
     width: 100%;
 }
 
-#navbar {
-    overflow: hidden;
-    background-color: white;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-    color: black;
-    height: 30px;
-}
-
-#dota2pic {
-    display:block;
-    width: 30vh;
-    height: 30vh;
-    margin: auto;
-}
 
 #projectTiles {
     display: grid;
     justify-items: center;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 5vh;
 }
 
-#firstTile {
-    width: 31vh;
-    height: 32vh;
-    text-align: center;
-    background-color: darkgrey;
-}
-
-#secondTile {
+.projectTile {
     width: 31vh;
     height: 32vh;
     text-align: center;
     background-color: darkgray;
 }
 
-#travelMatePic {
+.projectPic {
     width: 30vh;
     height: 30vh;
     margin: auto;
