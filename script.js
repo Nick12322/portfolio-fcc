@@ -9,3 +9,9 @@ $("#navWork").click(function() {
         scrollTop: $("#projects").offset().top},
         'slow');
 })
+
+$("#navContact").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#contactForm").offset().top},
+        'slow');
+})
