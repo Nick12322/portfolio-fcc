@@ -189,6 +189,7 @@ a:visited {
 
 a {
     text-decoration: none;
+    color: #004e8c;
 }
 
 @media only screen and (max-width: 800px) {
