@@ -101,27 +101,28 @@ table {
 }
 
 #projectTiles {
-    padding-left: 20vh;
-    padding-right: 20vh;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: auto auto;
 }
 
 #firstTile {
     width: 31vh;
-    height: 31vh;
+    height: 32vh;
     text-align: center;
-    float: left;
+    background-color: darkgrey;
 }
 
 #secondTile {
     width: 31vh;
-    height: 31vh;
+    height: 32vh;
     text-align: center;
-    float: right;
+    background-color: darkgray;
 }
 
 #travelMatePic {
-    display:block;
     width: 30vh;
     height: 30vh;
     margin: auto;
 }
+
