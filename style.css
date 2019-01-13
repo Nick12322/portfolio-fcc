@@ -69,8 +69,6 @@ body {
 .navLink {
     font-family: 'Open Sans', sans-serif;
     line-height: 3vh;
-    border-right-style: solid;
-    border: #004e8c;
 }
 
 a:visited {
