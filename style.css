@@ -253,9 +253,7 @@ a {
         text-align: center;
         background-color: gray;
     }
-}
 
-@media only screen and (max-width: 550px) {
     #projectTiles {
         display: grid;
         justify-items: center;
@@ -268,5 +266,6 @@ a {
         height: 195vh;
     }
 }
+
 
 
