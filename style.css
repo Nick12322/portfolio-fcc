@@ -105,6 +105,7 @@ a:visited {
     padding-top: 30px;
     font-size: 40px;
     padding-bottom: 10px;
+    font-weight: bold;
 }
 
 #projects {
@@ -124,7 +125,7 @@ a:visited {
     width: 31vh;
     height: 33vh;
     text-align: center;
-    background-color: gray;
+    background: gray;
 }
 
 .projectPic {
@@ -173,6 +174,7 @@ a:visited {
 
 .appName {
     font-family: 'Open Sans', sans-serif;
+    color: #004e8c;
 }
 
 .appLink:visited {
