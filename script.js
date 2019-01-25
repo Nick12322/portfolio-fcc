@@ -1,3 +1,7 @@
+
+
+
+
 $("#navTop").click(function() {
     $('html,body').animate({
         scrollTop: $("#welcome-section").offset().top},
@@ -15,3 +19,4 @@ $("#navContact").click(function() {
         scrollTop: $("#contactForm").offset().top},
         'slow');
 })
+
