@@ -58,14 +58,12 @@ body {
 
 #navbar {
     overflow: hidden;
-    background-color: lightgrey;
+    background-color: white;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     color: #004e8c;
     height: 3vh;
-    border-style: solid;
-    border-bottom-width: 1.5px;
 }
 
 .navLink {

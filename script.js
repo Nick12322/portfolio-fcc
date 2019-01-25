@@ -1,7 +1,3 @@
-
-
-
-
 $("#navTop").click(function() {
     $('html,body').animate({
         scrollTop: $("#welcome-section").offset().top},
