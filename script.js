@@ -15,4 +15,3 @@ $("#navContact").click(function() {
         scrollTop: $("#contactForm").offset().top},
         'slow');
 })
-
