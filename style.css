@@ -235,7 +235,6 @@ a {
         width: 27vh;
         height: 27vh;
         text-align: center;
-        background-color: gray;
     }
 
     .projectPic {
@@ -258,6 +257,8 @@ a {
         font-family: 'Open Sans', sans-serif;
         font-size: 25px;
     }
+
+
     
 }
 
@@ -283,7 +284,6 @@ a {
         width: 27vh;
         height: 29vh;
         text-align: center;
-        background-color: gray;
     }
 
     #projectTiles {
@@ -296,6 +296,7 @@ a {
     #projects {
         width: 100%;
         height: 200vh;
+        padding-bottom: 35px;
     }
 
 }
