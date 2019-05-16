@@ -264,6 +264,17 @@ a {
     
 }
 
+.tileOutline {
+    border-style: solid;
+    border-width: 2px;
+}
+
+.tileButton {
+    background-color: #004e8c;
+    border-color: #004e8c;
+    color: white;
+}
+
 @media only screen and (max-width: 600px) {
     .dot {
         height: 20vh;
